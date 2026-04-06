@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jilyann Company Profile</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    article {
+      background: linear-gradient(135deg, #1f2937, #374151);
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 650px;
+      margin: auto;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+      color: #f3f4f6;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    article h2 {
+      margin-bottom: 20px;
+      font-size: 32px;
+      color: #f9fafb;
+      letter-spacing: 1px;
+    }
+
+    article p {
+      line-height: 1.8;
+      font-size: 17px;
+      color: #d1d5db;
+      text-align: center;
+    }
+
+    button:hover {
+      background: #2563eb !important;
+      transform: translateY(-2px);
+    }
+
+    button::after {
+      content: ' →';
+      transition: transform 0.3s;
+    }
+
+    button:hover::after {
+      transform: translateX(5px);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jilyann Company</h1>
+    <p>Crafting Modern Digital Experiences with Creativity & Precision</p>
+  </header>
+
+  <main>
+    <article>
+      <h2>About Us</h2>
+      <p>
+        At Jilyann Company, we craft user-centered digital solutions designed to elevate businesses in the digital era.
+        Our mission is to deliver sleek, efficient, and scalable applications that not only meet but exceed expectations.
+      </p>
+      <p>
+        Through a perfect blend of innovation, creativity, and technical expertise, we transform ideas into impactful digital experiences.
+        Every project reflects professionalism, attention to detail, and a dedication to delivering excellence.
+      </p>
+
+      <button style="
+        background: #3b82f6;
+        color: #ffffff;
+        padding: 14px 30px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 25px;
+        transition: 0.3s;
+      ">
+        Learn More
+      </button>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2026 Jilyann Company. All rights reserved.</p>
+    <p>Contact Us: <a href="mailto:jilyanncompany@email.com">jilyanncompany@email.com</a></p>
+  </footer>
+
+</body>
+</html>
